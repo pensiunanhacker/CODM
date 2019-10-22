@@ -23,6 +23,8 @@ norec7()
 norec8()
 norec9()
 norec10()
+--joincode
+hexbytenorec()
 gg.alert("☑Done norecoil all weapon")
 end
 
