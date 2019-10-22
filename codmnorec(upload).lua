@@ -185,6 +185,16 @@ p = nil
 gg.processResume()
 gg.clearResults()
 end
+
+--last step
+function hexbytenorec()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("h0000803F0000803F3333933FCDCC8C3F00007041000010419A99C93FACC527370000A040", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h0000803F0000803F3333933FCDCC8C3FF0237449000010419A99C93FACC527370000A040", gg.TYPE_BYTE)
+gg.clearResults()
+end
+
 -----------------------------------------------------------------------
 --function FOOTER AND EXIT bellow
 function EXIT()
